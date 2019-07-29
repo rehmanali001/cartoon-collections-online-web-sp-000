@@ -20,6 +20,8 @@ def find_the_cheese(string)
   string.each do |line|
  if cheese_types.include?(line)
    return line
+  else 
+    return nil
 end
 end
 end
