@@ -7,9 +7,9 @@ def summon_captain_planet(veggies)
 end
 def long_planeteer_calls(array)
   array.each do |line|
-  if line.length <= 4
+  if line.length < 4
     return true
-  elsif line.length >= 4
+  elsif line.length > 4
     return false
 end
 end
