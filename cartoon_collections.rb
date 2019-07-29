@@ -3,7 +3,9 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
+  collection = []
   veggies.collect {|name| puts name.capitalize + '!' }
+  collection << veggies
 end
 
 
