@@ -5,7 +5,7 @@ end
 def summon_captain_planet(veggies)
   collection = []
   veggies.collect {|name| puts name.capitalize + '!' }
-  collection << veggies
+  collection << name
 end
 
 
