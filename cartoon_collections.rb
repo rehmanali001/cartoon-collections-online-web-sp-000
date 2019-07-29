@@ -5,6 +5,7 @@ end
 def summon_captain_planet(veggies)
   collection = []
   veggies.map { |name| name.capitalize }
+  veggies.each {}
   collection << veggies
 end
 
