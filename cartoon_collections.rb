@@ -6,7 +6,7 @@ def summon_captain_planet(veggies)
   collection = []
   veggies.map {|name| puts name.capitalize + '!' }
   collection << veggies
-  collection
+  return collection
 end
 
 
