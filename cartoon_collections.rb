@@ -9,7 +9,7 @@ def long_planeteer_calls(array)
   array.each do |line|
   if line.length <= 4
     return true
-  else 
+  elsif line.length >= 4
     return false
 end
 end
