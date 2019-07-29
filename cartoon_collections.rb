@@ -6,8 +6,9 @@ def summon_captain_planet(veggies)
   collection = []
   veggies.map { |name| name.capitalize puts name + '!'}
   collection << veggies
+  collection
 end
-collection
+
 
 
 def long_planeteer_calls# code an argument here
