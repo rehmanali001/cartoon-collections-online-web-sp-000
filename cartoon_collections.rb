@@ -22,4 +22,3 @@ def find_the_cheese(string)
      return line
 end
 end
-end
