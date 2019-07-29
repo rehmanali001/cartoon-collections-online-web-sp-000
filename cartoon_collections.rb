@@ -6,7 +6,8 @@ def summon_captain_planet(veggies)
   veggies.map {|name| name.capitalize + '!'}
 end
 def long_planeteer_calls(array)
-  if array.length > 4
+  array.each do |line|
+  if line.length > 4
     true
   else 
     false
